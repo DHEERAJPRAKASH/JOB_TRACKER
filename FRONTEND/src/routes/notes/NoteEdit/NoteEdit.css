@@ -1,0 +1,56 @@
+.noteEdit {
+  width: 50%;
+  height: 560px;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  bottom: 40px;
+  background-color: #fff;
+}
+.overlay {
+  background-color: #131313;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.color-picker {
+  width: 50%;
+  margin-bottom: -35px;
+}
+.color-picker input {
+  visibility: hidden;
+  width: 0;
+  margin: 0;
+}
+.color-picker label {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.color-picker input[type="radio"]:checked + label:after {
+  content: "";
+  position: absolute;
+  transform: rotate(45deg);
+  left: 10px;
+  top: 6px;
+  opacity: 0.5;
+  width: 5px;
+  height: 10px;
+  border-right: 1px solid;
+  border-bottom: 1px solid;
+}

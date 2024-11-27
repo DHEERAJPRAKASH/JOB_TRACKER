@@ -1,0 +1,30 @@
+.jobEdit {
+  width: 80%;
+  height: 90%;
+  border-radius: 10px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  bottom: 40px;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+.overlay {
+  background-color: #131313;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.541);
+}
+.inputboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
